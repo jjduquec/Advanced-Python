@@ -1,0 +1,11 @@
+
+    tiene un formato plano parecido al diccionario  
+    cada objeto en un diccionario , tienen una clave y un valor 
+
+    las claves se indican entre comillas
+
+
+    el ultimo elemento en un json , no puede tener coma  
+
+    se usa como  separador decimal un punto . 
+

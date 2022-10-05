@@ -1,0 +1,20 @@
+{
+    "llave_string":"Texto",
+    "otro_atributo":1,
+    "decimal":1.2,
+    "booleano":true,
+    "booleano_2":false,
+    "nulo":null, 
+    "array":[1,2,3,4,5],
+    "objeto":{
+        "nombre":"Juan",
+        "apellido":"Duque"
+
+
+
+    }
+    
+
+
+
+}
