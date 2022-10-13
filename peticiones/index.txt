@@ -1,0 +1,47 @@
+Http: es un mensaje o solicitud que se envia entre los servicios que establecen una comunicacion  
+
+Estan compuestas por 3 elementos principales :  
+
+    Linea de inicio : objetivo , version (estructura), tipo  
+    Cabecera o headers : metadatos que se envian para obtener informacion de la peticion 
+    Cuerpo: Contiene los datos a enviar  
+
+Respuestas :  
+
+    Linea de estado : protocolo usado,codigo y texto  
+    Cabecera: metadatos enviados  
+    Cuerpo: informacion solicitada por la informacion  
+
+
+Metodos:  
+
+    Get: Permite la entrega de datos  
+    Post: Guardar datos  
+    Put: modificar datos  
+    Delete: Borrar datos en el servidor 
+
+
+Codigos de estado:  
+
+    1xx : Respuestas informativas
+    2xx : Respuestas satisfactorias  (200 Ok , 201 Created) 
+    3xx : Redirecciones  
+    4xx : errores del cliente  (400 bad request, 401 unauthorized , 403 forbbiden )
+    5xx : errores del servidor (500 internal server) 
+
+API:  
+
+    Conjunto de funciones y protocolos que permiten la comunicacion entre servicios en base a un conjunto de reglas  
+    Usan metodos http 
+
+    Endpoint: permiten entregar o recibir informacion hacia el servicio 
+              url con un metodo especifico para realizar una tarea 
+
+    
+Request:  
+
+    Libreria que permite hacer peticiones  
+
+    pip install requests  
+
+    
