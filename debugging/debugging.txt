@@ -1,0 +1,24 @@
+Debugging es un proceso manual en el cual se evalua el funcionamiento del codigo, permite identificar errores  
+
+Para ello , se usa la libreria pdb : nos permite depurar el codigo python a traves de la linea de comandos   (libreria nativa) 
+
+Podemos detectar fallas o errores sin usar las herramientas de los editores  
+
+
+Para establecer breakpoints :  
+
+    1. activamos el Debugging en la consola : python -m <archivo> }
+    2. escribimos break <numero de linea donde queremos poner el break point>
+    3. escribimos continue , el programa avanzara hasta el siguiente break point
+
+    
+Next : podemos ejecutar la siguiente linea de codigo sin necesidad de breakpoints
+
+
+Inspeccionar variables :  
+
+    display permite mostrar el contenido de una variable 
+    
+    display <nombre variable> 
+
+Restart nos permite reiniciar el debugging, no nos borra los break point 
